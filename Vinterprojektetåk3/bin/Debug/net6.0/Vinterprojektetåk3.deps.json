@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Vinterprojektetåk3/1.0.0": {
+        "runtime": {
+          "Vinterprojektetåk3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vinterprojektetåk3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

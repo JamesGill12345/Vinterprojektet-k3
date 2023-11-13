@@ -1,0 +1,15 @@
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\bin\Debug\net6.0\Vinterprojektetåk3.exe
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\bin\Debug\net6.0\Vinterprojektetåk3.deps.json
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\bin\Debug\net6.0\Vinterprojektetåk3.runtimeconfig.json
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\bin\Debug\net6.0\Vinterprojektetåk3.dll
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\bin\Debug\net6.0\Vinterprojektetåk3.pdb
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.csproj.AssemblyReference.cache
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.AssemblyInfoInputs.cache
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.AssemblyInfo.cs
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.csproj.CoreCompileInputs.cache
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.dll
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\refint\Vinterprojektetåk3.dll
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.pdb
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\Vinterprojektetåk3.genruntimeconfig.cache
+C:\Users\james.gill\Documents\programering\Vinterprojektetåk3\Vinterprojektetåk3\obj\Debug\net6.0\ref\Vinterprojektetåk3.dll
