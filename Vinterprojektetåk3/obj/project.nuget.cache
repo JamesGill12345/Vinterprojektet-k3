@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ac1uLz4Czpt6onE0YrsyxFEvlv11iKNXkEH3TctJgHirROuSKk2KYnIbXieukCjFLsrSXljGEtUE/v+8KmcRYA==",
+  "dgSpecHash": "uquXkIaLerLxLtZOoH3w0fz+FNO3OVto1rB/lv0tKOqjVOnKzsg0a5iFCWrtX02B7WP6xgO+B0pel7dZRjHDjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\james.gill\\Documents\\programering\\Vinterprojektetåk3\\Vinterprojektetåk3\\Vinterprojektetåk3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\james.gill\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\james.gill\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\james.gill\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\james.gill\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
