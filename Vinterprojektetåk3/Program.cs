@@ -42,10 +42,22 @@ Ingredienser[2].Healthyness = 3;
 Ingredienser[3].Healthyness = 3;
 Ingredienser[4].Healthyness = 7;
 
-if (Pengar == 0)
-{
- isdone = true;
-}
+List<Judge> Dommare = new List<Judge>();
+Dommare.Add(new Judge()); // 0
+Dommare.Add(new Judge()); // 1
+Dommare.Add(new Judge()); // 2
+
+Dommare[0].LikesHealthyness = 0;
+Dommare[0].LikesSourness = 3;
+Dommare[0].LikesSweetness = 10;
+
+Dommare[1].LikesHealthyness = 8;
+Dommare[1].LikesSourness = 5;
+Dommare[1].LikesSweetness = 1;
+
+Dommare[2].LikesHealthyness = 2;
+Dommare[2].LikesSourness = 10;
+Dommare[2].LikesSweetness = 7;
 
 
 System.Console.WriteLine("Välkommen till spelet");
@@ -54,6 +66,12 @@ System.Console.WriteLine("Välkommen till spelet");
 
 while (isdone == false)
 {
+    if (Pengar <= 0)
+{
+    Pengar = 0;
+    isdone = true;
+}
+
 
     
 
@@ -64,6 +82,21 @@ while (isdone == false)
     int tal;
     
     tal = int.Parse(ingr);
-
+    Pengar = Pengar -Ingredienser[tal].Cost;
     System.Console.WriteLine($"{Ingredienser[tal].name} har lagts till du har {Pengar} Pengar kvar, testa att lägga till en till");
+    System.Console.WriteLine($"{Ingredienser[tal].name} hade {Ingredienser[tal].Sweetness} i söthet och {Ingredienser[tal].Sourness} i surhet och {Ingredienser[tal].Healthyness} i hälsosammhet");
+
+    int matstats = Ingredienser[tal].Sweetness + Ingredienser[tal].Sourness + Ingredienser[tal].Healthyness;
+    System.Console.WriteLine($"{matstats} är dina ingrediensers sammanlagda värde.");
+
+
+    foreach (Judge judge in Dommare)
+
+}
+if(isdone == true)
+{
+    System.Console.WriteLine("Din maträtt är klar");
+
+
+    
 }

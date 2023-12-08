@@ -7,7 +7,5 @@ public class Ingredient
     public int Sourness;
     public int Healthyness;
 
-
-
 }
 
