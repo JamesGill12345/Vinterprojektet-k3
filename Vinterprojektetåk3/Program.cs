@@ -91,6 +91,9 @@ while (isdone == false)
 
 
     foreach (Judge judge in Dommare)
+    {
+        
+    }
 
 }
 if(isdone == true)
