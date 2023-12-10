@@ -1,4 +1,6 @@
-﻿List<Ingredient> Ingredienser = new List<Ingredient>();
+﻿using System.Runtime.Intrinsics.Arm;
+
+List<Ingredient> Ingredienser = new List<Ingredient>();
 Ingredienser.Add(new Ingredient()); // 0
 Ingredienser.Add(new Ingredient()); // 1
 Ingredienser.Add(new Ingredient()); // 2
@@ -63,14 +65,12 @@ Dommare[2].LikesSweetness = 7;
 System.Console.WriteLine("Välkommen till spelet");
 
 
+int[] totalliking = new int[Dommare.Count];
+
 
 while (isdone == false)
 {
-    if (Pengar <= 0)
-{
-    Pengar = 0;
-    isdone = true;
-}
+
 
 
     
@@ -89,10 +89,30 @@ while (isdone == false)
     int matstats = Ingredienser[tal].Sweetness + Ingredienser[tal].Sourness + Ingredienser[tal].Healthyness;
     System.Console.WriteLine($"{matstats} är dina ingrediensers sammanlagda värde.");
 
+    
+        if (Pengar <= 0)
+{
+    Pengar = 0;
+    isdone = true;
+}
+
 
     foreach (Judge judge in Dommare)
     {
-        
+        int liking = 0;
+        if (judge.LikesSweetness > -Ingredienser[tal].Sweetness)
+         liking += judge.LikesSweetness - Ingredienser[tal].Sweetness;
+
+         if (judge.LikesSourness > Ingredienser[tal].Sourness)
+         liking+= judge.LikesSourness - Ingredienser[tal].Sourness;
+
+         if (judge.LikesHealthyness > Ingredienser[tal].Healthyness)
+         liking+= judge.LikesHealthyness - Ingredienser[tal].Healthyness;
+
+         Console.WriteLine($"Judge {Dommare.IndexOf(judge)} liking: {liking}");
+
+         totalliking[Dommare.IndexOf(judge)] += liking;
+
     }
 
 }
@@ -100,6 +120,14 @@ if(isdone == true)
 {
     System.Console.WriteLine("Din maträtt är klar");
 
+    for (int dommarplats = 0; dommarplats < Dommare.Count; dommarplats++)
+    {
+        Console.WriteLine($"Dommare {dommarplats} summa: {totalliking[dommarplats]}");
+       
+    }
+    int totalscore = totalliking[0] + totalliking[1] + totalliking[2];
+    System.Console.WriteLine($"din totala poäng var {totalscore}, snyggt jobbat!");
 
     
 }
+System.Console.ReadLine();
